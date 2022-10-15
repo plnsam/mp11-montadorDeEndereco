@@ -1,4 +1,4 @@
-// Forma utilizando o loop "FOR...IN"
+/* Forma utilizando o loop "FOR...IN" */
 
   const endereco = {
   cidade: 'Recife',
@@ -13,13 +13,14 @@ function exibirEndereco(endereco){
 }
 console.log(endereco)
 
-// Forma utilizando CONSTRUCTOR FUNCTION
+/* 
+Forma utilizando CONSTRUCTOR FUNCTION
 
-// function endereco(cidade, rua, CEP){
-//   this.cidade = cidade;
-  // this.rua = rua;
-  // this.CEP = CEP
-// }
-// 
-// const exibirEndereco = new endereco('Recife', 'Centro', '12345-678')
-// console.log(exibirEndereco)
+ function endereco(cidade, rua, CEP){
+   this.cidade = cidade;
+  this.rua = rua;
+   this.CEP = CEP
+}
+ const exibirEndereco = new endereco('Recife', 'Centro', '12345-678')
+ console.log(exibirEndereco)
+*/
